@@ -1,0 +1,123 @@
+* {
+margin: 0;
+padding:0;
+box-sizing: border-box;
+/* border: 1px solid rgb(0, 0, 0); */
+font-family: monospace;
+}
+
+:root {
+   --pink: rgb(221,170,165);
+   --violet: rgb(173,104,132);
+   --lightgreen: rgb(163,184,153);
+   --darkgreen: rgb(115,139,117);
+   --brown: rgb(172,124,96);
+   --lightbrown: rgb(209,166,132);
+   --beige: rgb(237,226,213);
+
+}
+
+/* Global Attributes  */
+
+body {
+    background-color: var(--pink);
+}
+
+
+.main-div {
+    padding: 15px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.top-bar {
+    padding: 15px;
+    background-color: var(--beige);
+    margin: 10px;
+}
+
+.top-bar button {
+    outline: none;
+    background-color: var(--lightgreen);
+    cursor:pointer;
+}
+
+.top-bar p {
+    float: right;
+    align-items: center;
+    color: var(--violet);
+    font-size: 15px;
+}
+
+.main-text h1 {
+    font-size: 50px;
+    text-align: center;
+    color: var(--darkgreen);
+}
+
+.inner-div {
+    background-color: var(--darkgreen);
+    height: 100%;
+    width: 100%;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quiz-intro {
+    margin-bottom: 10vh;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.quiz-intro h1 {
+    color: var(--pink);
+    text-align: center;
+    font-size: 50px;
+}
+
+.quiz-intro p {
+    color: var(--pink);
+    text-align: center;
+    font-size: 25px;
+}
+
+.quiz-intro button {
+    display: block;
+    margin: 0 auto;
+    font-size: 30px;
+    color: var(--violet);
+    background-color: var(--pink); /* Add a background color if needed */
+    border: none;
+    padding: 10px; /* Adjust the padding to control the size */
+    border-radius: 50%;
+    cursor:pointer;
+}
+
+main {
+    /* display: none; */
+    background-color: var(--violet);
+}
+
+li {
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
