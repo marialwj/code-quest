@@ -23,7 +23,7 @@ GIF of web application
 
 ## Link to Deployed Application
 
-
+https://marialwj.github.io/code-quest/ 
 
 ## How to Play
 
